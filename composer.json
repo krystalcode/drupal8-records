@@ -1,0 +1,14 @@
+{
+  "name": "drupal/records",
+  "type": "drupal-module",
+  "description": "Provides accountancy functionality for Drupal sites.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/records",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/records",
+    "source": "http://cgit.drupalcode.org/records"
+  },
+  "require": { }
+}
