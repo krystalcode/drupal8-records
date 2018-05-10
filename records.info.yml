@@ -1,5 +1,9 @@
 name: 'Records'
 type: module
 description: 'Provides accountancy functionality for Drupal sites.'
+package: Records
 core: 8.x
-package: 'Records'
+dependencies:
+  - commerce:commerce_price
+  - pathauto
+  - system (>=8.5.0)
