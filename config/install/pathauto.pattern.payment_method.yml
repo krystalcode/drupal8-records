@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: payment_method
+label: 'Payment Method'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'records/payment-methods/[term:tid]/[term:name]'
+selection_criteria:
+  6616a4f3-f41f-4def-b7be-72af9b4614b4:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      records_payment_method: records_payment_method
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 6616a4f3-f41f-4def-b7be-72af9b4614b4
+selection_logic: and
+weight: -5
+relationships: {  }
