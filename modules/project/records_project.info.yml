@@ -1,0 +1,9 @@
+name: 'Records Project'
+type: module
+description: 'Provides functionality for grouping records in projects within the Records module suite.'
+core: 8.x
+package: 'Records'
+dependencies:
+  - records
+  - gnode
+  - group
