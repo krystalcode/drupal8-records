@@ -18,6 +18,5 @@ default_value: {  }
 default_value_callback: ''
 settings:
   available_currencies:
-    - PEN
     - USD
 field_type: commerce_price

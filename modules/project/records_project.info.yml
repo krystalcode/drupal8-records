@@ -4,6 +4,7 @@ description: 'Provides functionality for grouping records in projects within the
 core: 8.x
 package: 'Records'
 dependencies:
-  - records
+  - records:records
+  - records:records_expense
+  - records:records_income
   - gnode
-  - group

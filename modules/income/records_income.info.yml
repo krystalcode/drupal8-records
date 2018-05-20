@@ -4,4 +4,4 @@ description: 'Provides functionality for registering income within the Records m
 core: 8.x
 package: 'Records'
 dependencies:
-  - records
+  - records:records
